@@ -3,27 +3,99 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0ADCD32565BBE00063E7D2 /* MessagesCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0ADCD22565BBE00063E7D2 /* MessagesCell2.swift */; };
 		3F253F3B254B3688009C6915 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F253F3A254B3688009C6915 /* AppDelegate.swift */; };
 		3F253F3D254B3688009C6915 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F253F3C254B3688009C6915 /* ViewController.swift */; };
 		3F253F40254B3688009C6915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F253F3E254B3688009C6915 /* Main.storyboard */; };
 		3F253F43254B3688009C6915 /* Glam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F253F41254B3688009C6915 /* Glam.xcdatamodeld */; };
 		3F253F45254B3689009C6915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F253F44254B3689009C6915 /* Assets.xcassets */; };
 		3F253F48254B3689009C6915 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F253F46254B3689009C6915 /* LaunchScreen.storyboard */; };
+		3F253F53254B38BE009C6915 /* LoginOrCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F253F52254B38BE009C6915 /* LoginOrCreateViewController.swift */; };
+		3F253F55254B38E0009C6915 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F253F54254B38E0009C6915 /* LoginViewController.swift */; };
+		3F253F57254B38F7009C6915 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F253F56254B38F7009C6915 /* CreateViewController.swift */; };
+		3F253F59254B480A009C6915 /* CreateBusinessAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F253F58254B480A009C6915 /* CreateBusinessAccountViewController.swift */; };
+		3F253F5B254B4819009C6915 /* CreateCustomerAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F253F5A254B4819009C6915 /* CreateCustomerAccountViewController.swift */; };
+		3F253F5D254B5056009C6915 /* HomeCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F253F5C254B5055009C6915 /* HomeCustomerViewController.swift */; };
+		3F253F5F254B5072009C6915 /* MessageCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F253F5E254B5072009C6915 /* MessageCustomerViewController.swift */; };
+		3F253F61254B507E009C6915 /* SearchCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F253F60254B507E009C6915 /* SearchCustomerViewController.swift */; };
+		3F253F63254B508E009C6915 /* NotificationCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F253F62254B508E009C6915 /* NotificationCustomerViewController.swift */; };
+		3F253F65254B509B009C6915 /* ProfileCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F253F64254B509B009C6915 /* ProfileCustomerViewController.swift */; };
+		3F253F67254B50AE009C6915 /* HomeBusinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F253F66254B50AE009C6915 /* HomeBusinessViewController.swift */; };
+		3F253F69254B50C6009C6915 /* MessageBusinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F253F68254B50C6009C6915 /* MessageBusinessViewController.swift */; };
+		3F253F6B254B50D2009C6915 /* SearchBusinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F253F6A254B50D2009C6915 /* SearchBusinessViewController.swift */; };
+		3F253F6D254B50E3009C6915 /* NotificationBusinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F253F6C254B50E3009C6915 /* NotificationBusinessViewController.swift */; };
+		3F253F6F254B50F7009C6915 /* ProfileBusinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F253F6E254B50F7009C6915 /* ProfileBusinessViewController.swift */; };
+		3F6C6AF62561DE5800A14AF7 /* MessagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C6AF52561DE5800A14AF7 /* MessagesCell.swift */; };
+		3F75198A255B684300F5C291 /* SearchProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F751989255B684300F5C291 /* SearchProfileViewController.swift */; };
+		3F7ADE7B255F0B38007CEB25 /* CalanderCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7ADE7A255F0B38007CEB25 /* CalanderCustomerViewController.swift */; };
+		3F8FB630255C504600F19072 /* SearchProfileViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8FB62F255C504600F19072 /* SearchProfileViewController2.swift */; };
+		3F8FB632255C5DA500F19072 /* BusinessSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8FB631255C5DA500F19072 /* BusinessSettingsViewController.swift */; };
+		3FBBB4E62568411400569CDD /* NewMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBBB4E52568411400569CDD /* NewMessageViewController.swift */; };
+		3FC4214B25606A2100D9D15E /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4214A25606A2100D9D15E /* ChatViewController.swift */; };
+		3FC4214D25606BF200D9D15E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FC4214C25606BF200D9D15E /* GoogleService-Info.plist */; };
+		3FC421592560857500D9D15E /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC421582560857500D9D15E /* CustomCell.swift */; };
+		3FD0C2E3255D9318004FD181 /* CustomerCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0C2E2255D9318004FD181 /* CustomerCategory.swift */; };
+		3FD0C2E5255DA8D6004FD181 /* SearchProfileViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0C2E4255DA8D6004FD181 /* SearchProfileViewController3.swift */; };
+		3FD0C2E7255DB57D004FD181 /* BusinessCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0C2E6255DB57D004FD181 /* BusinessCategory.swift */; };
+		3FD0C2E9255DB8C6004FD181 /* SearchProfileViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0C2E8255DB8C6004FD181 /* SearchProfileViewController4.swift */; };
+		3FD0C2EB255DBE1F004FD181 /* NearYouBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0C2EA255DBE1F004FD181 /* NearYouBusiness.swift */; };
+		3FD0C2ED255E1C67004FD181 /* NearMeCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0C2EC255E1C67004FD181 /* NearMeCustomer.swift */; };
+		3FD0C2EF255E203A004FD181 /* SearchProfileViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0C2EE255E203A004FD181 /* SearchProfileViewController5.swift */; };
+		3FD0C2F1255E2337004FD181 /* SearchViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0C2F0255E2337004FD181 /* SearchViewController6.swift */; };
+		3FE4A16A25671200003D6752 /* ChatSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE4A16925671200003D6752 /* ChatSettingsViewController.swift */; };
+		AEE0C314AC8A7D30AD64C3CC /* Pods_Glam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029043977EBA00271D6ACC10 /* Pods_Glam.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		029043977EBA00271D6ACC10 /* Pods_Glam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Glam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07AB10B741F753CDC19BF3BE /* Pods-Glam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glam.debug.xcconfig"; path = "Target Support Files/Pods-Glam/Pods-Glam.debug.xcconfig"; sourceTree = "<group>"; };
+		3F0ADCD22565BBE00063E7D2 /* MessagesCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesCell2.swift; sourceTree = "<group>"; };
 		3F253F37254B3688009C6915 /* Glam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F253F3A254B3688009C6915 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F253F3C254B3688009C6915 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F253F3F254B3688009C6915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F253F42254B3688009C6915 /* Glam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Glam.xcdatamodel; sourceTree = "<group>"; };
-		3F253F44254B3689009C6915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F253F44254B3689009C6915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Glam/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		3F253F47254B3689009C6915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F253F49254B3689009C6915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F253F52254B38BE009C6915 /* LoginOrCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOrCreateViewController.swift; sourceTree = "<group>"; };
+		3F253F54254B38E0009C6915 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3F253F56254B38F7009C6915 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		3F253F58254B480A009C6915 /* CreateBusinessAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateBusinessAccountViewController.swift; sourceTree = "<group>"; };
+		3F253F5A254B4819009C6915 /* CreateCustomerAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCustomerAccountViewController.swift; sourceTree = "<group>"; };
+		3F253F5C254B5055009C6915 /* HomeCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCustomerViewController.swift; sourceTree = "<group>"; };
+		3F253F5E254B5072009C6915 /* MessageCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCustomerViewController.swift; sourceTree = "<group>"; };
+		3F253F60254B507E009C6915 /* SearchCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCustomerViewController.swift; sourceTree = "<group>"; };
+		3F253F62254B508E009C6915 /* NotificationCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCustomerViewController.swift; sourceTree = "<group>"; };
+		3F253F64254B509B009C6915 /* ProfileCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCustomerViewController.swift; sourceTree = "<group>"; };
+		3F253F66254B50AE009C6915 /* HomeBusinessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBusinessViewController.swift; sourceTree = "<group>"; };
+		3F253F68254B50C6009C6915 /* MessageBusinessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBusinessViewController.swift; sourceTree = "<group>"; };
+		3F253F6A254B50D2009C6915 /* SearchBusinessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBusinessViewController.swift; sourceTree = "<group>"; };
+		3F253F6C254B50E3009C6915 /* NotificationBusinessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationBusinessViewController.swift; sourceTree = "<group>"; };
+		3F253F6E254B50F7009C6915 /* ProfileBusinessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileBusinessViewController.swift; sourceTree = "<group>"; };
+		3F6C6AF52561DE5800A14AF7 /* MessagesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesCell.swift; sourceTree = "<group>"; };
+		3F751989255B684300F5C291 /* SearchProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProfileViewController.swift; sourceTree = "<group>"; };
+		3F7ADE7A255F0B38007CEB25 /* CalanderCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanderCustomerViewController.swift; sourceTree = "<group>"; };
+		3F8FB62F255C504600F19072 /* SearchProfileViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProfileViewController2.swift; sourceTree = "<group>"; };
+		3F8FB631255C5DA500F19072 /* BusinessSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSettingsViewController.swift; sourceTree = "<group>"; };
+		3FBBB4E52568411400569CDD /* NewMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageViewController.swift; sourceTree = "<group>"; };
+		3FC4214A25606A2100D9D15E /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		3FC4214C25606BF200D9D15E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3FC421582560857500D9D15E /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		3FD0C2E2255D9318004FD181 /* CustomerCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerCategory.swift; sourceTree = "<group>"; };
+		3FD0C2E4255DA8D6004FD181 /* SearchProfileViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProfileViewController3.swift; sourceTree = "<group>"; };
+		3FD0C2E6255DB57D004FD181 /* BusinessCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCategory.swift; sourceTree = "<group>"; };
+		3FD0C2E8255DB8C6004FD181 /* SearchProfileViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProfileViewController4.swift; sourceTree = "<group>"; };
+		3FD0C2EA255DBE1F004FD181 /* NearYouBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearYouBusiness.swift; sourceTree = "<group>"; };
+		3FD0C2EC255E1C67004FD181 /* NearMeCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeCustomer.swift; sourceTree = "<group>"; };
+		3FD0C2EE255E203A004FD181 /* SearchProfileViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProfileViewController5.swift; sourceTree = "<group>"; };
+		3FD0C2F0255E2337004FD181 /* SearchViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController6.swift; sourceTree = "<group>"; };
+		3FE4A16925671200003D6752 /* ChatSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSettingsViewController.swift; sourceTree = "<group>"; };
+		905F6CE2249225E3B59B8E5E /* Pods-Glam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glam.release.xcconfig"; path = "Target Support Files/Pods-Glam/Pods-Glam.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEE0C314AC8A7D30AD64C3CC /* Pods_Glam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +115,8 @@
 			children = (
 				3F253F39254B3688009C6915 /* Glam */,
 				3F253F38254B3688009C6915 /* Products */,
+				77DC3193C04ECB636A16671B /* Pods */,
+				AE0D80BAF9D4BCCCDA9D4B63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +131,90 @@
 		3F253F39254B3688009C6915 /* Glam */ = {
 			isa = PBXGroup;
 			children = (
-				3F253F3A254B3688009C6915 /* AppDelegate.swift */,
-				3F253F3C254B3688009C6915 /* ViewController.swift */,
-				3F253F3E254B3688009C6915 /* Main.storyboard */,
-				3F253F44254B3689009C6915 /* Assets.xcassets */,
-				3F253F46254B3689009C6915 /* LaunchScreen.storyboard */,
 				3F253F49254B3689009C6915 /* Info.plist */,
+				3FC4214C25606BF200D9D15E /* GoogleService-Info.plist */,
 				3F253F41254B3688009C6915 /* Glam.xcdatamodeld */,
+				3F253F51254B383E009C6915 /* Assets */,
+				3F253F50254B3807009C6915 /* Views */,
+				3F253F4F254B37FC009C6915 /* Controllers */,
 			);
 			path = Glam;
+			sourceTree = "<group>";
+		};
+		3F253F4F254B37FC009C6915 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F253F3A254B3688009C6915 /* AppDelegate.swift */,
+				3F253F3C254B3688009C6915 /* ViewController.swift */,
+				3F253F52254B38BE009C6915 /* LoginOrCreateViewController.swift */,
+				3F253F54254B38E0009C6915 /* LoginViewController.swift */,
+				3F253F56254B38F7009C6915 /* CreateViewController.swift */,
+				3F253F58254B480A009C6915 /* CreateBusinessAccountViewController.swift */,
+				3F253F5A254B4819009C6915 /* CreateCustomerAccountViewController.swift */,
+				3F253F5C254B5055009C6915 /* HomeCustomerViewController.swift */,
+				3F253F5E254B5072009C6915 /* MessageCustomerViewController.swift */,
+				3F253F60254B507E009C6915 /* SearchCustomerViewController.swift */,
+				3F253F62254B508E009C6915 /* NotificationCustomerViewController.swift */,
+				3F253F64254B509B009C6915 /* ProfileCustomerViewController.swift */,
+				3F253F66254B50AE009C6915 /* HomeBusinessViewController.swift */,
+				3F253F68254B50C6009C6915 /* MessageBusinessViewController.swift */,
+				3F253F6A254B50D2009C6915 /* SearchBusinessViewController.swift */,
+				3F253F6C254B50E3009C6915 /* NotificationBusinessViewController.swift */,
+				3F253F6E254B50F7009C6915 /* ProfileBusinessViewController.swift */,
+				3F751989255B684300F5C291 /* SearchProfileViewController.swift */,
+				3F8FB62F255C504600F19072 /* SearchProfileViewController2.swift */,
+				3F8FB631255C5DA500F19072 /* BusinessSettingsViewController.swift */,
+				3FD0C2E2255D9318004FD181 /* CustomerCategory.swift */,
+				3FD0C2E4255DA8D6004FD181 /* SearchProfileViewController3.swift */,
+				3FD0C2E6255DB57D004FD181 /* BusinessCategory.swift */,
+				3FD0C2E8255DB8C6004FD181 /* SearchProfileViewController4.swift */,
+				3FD0C2EA255DBE1F004FD181 /* NearYouBusiness.swift */,
+				3FD0C2EC255E1C67004FD181 /* NearMeCustomer.swift */,
+				3FD0C2EE255E203A004FD181 /* SearchProfileViewController5.swift */,
+				3FD0C2F0255E2337004FD181 /* SearchViewController6.swift */,
+				3F7ADE7A255F0B38007CEB25 /* CalanderCustomerViewController.swift */,
+				3FC4214A25606A2100D9D15E /* ChatViewController.swift */,
+				3FC421582560857500D9D15E /* CustomCell.swift */,
+				3F6C6AF52561DE5800A14AF7 /* MessagesCell.swift */,
+				3F0ADCD22565BBE00063E7D2 /* MessagesCell2.swift */,
+				3FE4A16925671200003D6752 /* ChatSettingsViewController.swift */,
+				3FBBB4E52568411400569CDD /* NewMessageViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3F253F50254B3807009C6915 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F253F3E254B3688009C6915 /* Main.storyboard */,
+				3F253F46254B3689009C6915 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F253F51254B383E009C6915 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3F253F44254B3689009C6915 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		77DC3193C04ECB636A16671B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07AB10B741F753CDC19BF3BE /* Pods-Glam.debug.xcconfig */,
+				905F6CE2249225E3B59B8E5E /* Pods-Glam.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE0D80BAF9D4BCCCDA9D4B63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				029043977EBA00271D6ACC10 /* Pods_Glam.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F253F4C254B3689009C6915 /* Build configuration list for PBXNativeTarget "Glam" */;
 			buildPhases = (
+				9E635C79989F515BD54B9650 /* [CP] Check Pods Manifest.lock */,
 				3F253F33254B3688009C6915 /* Sources */,
 				3F253F34254B3688009C6915 /* Frameworks */,
 				3F253F35254B3688009C6915 /* Resources */,
+				CEB8857E4BAD3AC018DAE392 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,19 +280,95 @@
 				3F253F48254B3689009C6915 /* LaunchScreen.storyboard in Resources */,
 				3F253F45254B3689009C6915 /* Assets.xcassets in Resources */,
 				3F253F40254B3688009C6915 /* Main.storyboard in Resources */,
+				3FC4214D25606BF200D9D15E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E635C79989F515BD54B9650 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Glam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEB8857E4BAD3AC018DAE392 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Glam/Pods-Glam-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Glam/Pods-Glam-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Glam/Pods-Glam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3F253F33254B3688009C6915 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD0C2ED255E1C67004FD181 /* NearMeCustomer.swift in Sources */,
+				3F253F6D254B50E3009C6915 /* NotificationBusinessViewController.swift in Sources */,
+				3F253F5F254B5072009C6915 /* MessageCustomerViewController.swift in Sources */,
 				3F253F43254B3688009C6915 /* Glam.xcdatamodeld in Sources */,
+				3F7ADE7B255F0B38007CEB25 /* CalanderCustomerViewController.swift in Sources */,
+				3F253F67254B50AE009C6915 /* HomeBusinessViewController.swift in Sources */,
+				3FC421592560857500D9D15E /* CustomCell.swift in Sources */,
+				3F6C6AF62561DE5800A14AF7 /* MessagesCell.swift in Sources */,
 				3F253F3D254B3688009C6915 /* ViewController.swift in Sources */,
+				3F253F63254B508E009C6915 /* NotificationCustomerViewController.swift in Sources */,
+				3F253F57254B38F7009C6915 /* CreateViewController.swift in Sources */,
+				3F253F6B254B50D2009C6915 /* SearchBusinessViewController.swift in Sources */,
 				3F253F3B254B3688009C6915 /* AppDelegate.swift in Sources */,
+				3FD0C2E9255DB8C6004FD181 /* SearchProfileViewController4.swift in Sources */,
+				3F8FB630255C504600F19072 /* SearchProfileViewController2.swift in Sources */,
+				3FD0C2F1255E2337004FD181 /* SearchViewController6.swift in Sources */,
+				3FD0C2EF255E203A004FD181 /* SearchProfileViewController5.swift in Sources */,
+				3F253F5D254B5056009C6915 /* HomeCustomerViewController.swift in Sources */,
+				3F0ADCD32565BBE00063E7D2 /* MessagesCell2.swift in Sources */,
+				3FBBB4E62568411400569CDD /* NewMessageViewController.swift in Sources */,
+				3F253F55254B38E0009C6915 /* LoginViewController.swift in Sources */,
+				3F253F59254B480A009C6915 /* CreateBusinessAccountViewController.swift in Sources */,
+				3F253F6F254B50F7009C6915 /* ProfileBusinessViewController.swift in Sources */,
+				3F253F5B254B4819009C6915 /* CreateCustomerAccountViewController.swift in Sources */,
+				3F253F69254B50C6009C6915 /* MessageBusinessViewController.swift in Sources */,
+				3F253F53254B38BE009C6915 /* LoginOrCreateViewController.swift in Sources */,
+				3F253F61254B507E009C6915 /* SearchCustomerViewController.swift in Sources */,
+				3F75198A255B684300F5C291 /* SearchProfileViewController.swift in Sources */,
+				3FD0C2E7255DB57D004FD181 /* BusinessCategory.swift in Sources */,
+				3FD0C2EB255DBE1F004FD181 /* NearYouBusiness.swift in Sources */,
+				3F8FB632255C5DA500F19072 /* BusinessSettingsViewController.swift in Sources */,
+				3FE4A16A25671200003D6752 /* ChatSettingsViewController.swift in Sources */,
+				3F253F65254B509B009C6915 /* ProfileCustomerViewController.swift in Sources */,
+				3FD0C2E3255D9318004FD181 /* CustomerCategory.swift in Sources */,
+				3FD0C2E5255DA8D6004FD181 /* SearchProfileViewController3.swift in Sources */,
+				3FC4214B25606A2100D9D15E /* ChatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,15 +512,17 @@
 		};
 		3F253F4D254B3689009C6915 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07AB10B741F753CDC19BF3BE /* Pods-Glam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZK4ZF54372;
 				INFOPLIST_FILE = Glam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Glam;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Glam12345678;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,15 +531,17 @@
 		};
 		3F253F4E254B3689009C6915 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 905F6CE2249225E3B59B8E5E /* Pods-Glam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZK4ZF54372;
 				INFOPLIST_FILE = Glam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Glam;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Glam12345678;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
